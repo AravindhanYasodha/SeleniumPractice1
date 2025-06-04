@@ -1,0 +1,16 @@
+package AmazonPractice1;
+
+import org.testng.annotations.Test;
+
+import Utilities.BaseClass;
+
+public class SearchProduct extends BaseClass{
+	
+	@Test
+	public void searchProduct() {
+		
+	}
+	
+	
+
+}

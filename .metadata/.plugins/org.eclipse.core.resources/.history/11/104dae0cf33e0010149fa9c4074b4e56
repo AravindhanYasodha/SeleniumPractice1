@@ -1,0 +1,102 @@
+package Facebook;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import Utilities.FetchDataFromExcel;
+
+public class FacebookDDTWithDataProvider {
+
+	@DataProvider(name = "LoginData1")
+	public Object[][] TestData() throws IOException, NullPointerException {
+
+		Object[][] data1 = new Object[5][2];
+		// Step1: Create FileInputStream
+		// Step2: Create WorkbookFactory
+		// Step3: getSheet,getRow,getCell,getStringValue
+		String path = "C:\\Users\\welcome\\eclipse-workspace\\GroTechMindsSelenium\\TestNGProject1\\TestData\\TestDataFacebook.xlsx";
+		try {
+			// 1st Row Login data Valid UN and Valid PW
+			String username1 = FetchDataFromExcel.getNumericData(path, 0, 0, 0);
+			String password1 = FetchDataFromExcel.getStringData(path, 0, 0, 1);
+			data1[0][0] = username1;
+			data1[0][1] = password1;
+
+			// 2st Row Login data InValid UN and Valid PW
+			String username2 = FetchDataFromExcel.getStringData(path, 0, 1, 0);
+			String password2 = FetchDataFromExcel.getStringData(path, 0, 1, 1);
+			data1[1][0] = username2;
+			data1[1][1] = password2;
+
+			// 3st Row Login data Valid UN and InValid PW
+			String username3 = FetchDataFromExcel.getNumericData(path, 0, 2, 0);
+			String password3 = FetchDataFromExcel.getStringData(path, 0, 2, 1);
+			data1[2][0] = username3;
+			data1[2][1] = password3;
+
+			// 4st Row Login data InValid UN and InValid PW
+			String username4 = FetchDataFromExcel.getStringData(path, 0, 3, 0);
+			String password4 = FetchDataFromExcel.getStringData(path, 0, 3, 1);
+			data1[3][0] = username4;
+			data1[3][1] = password4;
+
+			// 5st Row Login data Null UN and Null PW
+			String username5 = FetchDataFromExcel.getNumericData(path, 0, 4, 0);
+			String password5 = FetchDataFromExcel.getStringData(path, 0, 4, 1);
+			data1[4][0] = username5;
+			data1[4][1] = password5;
+
+		} catch (NullPointerException e) {
+			System.out.println("NullPointerException Catched");
+		}
+		return data1;
+
+	}
+
+	@Test(dataProvider = "LoginData1")
+	public void loginToFacebook(String UN, String PW) throws InterruptedException {
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("https://www.facebook.com/login.php/");
+
+		try {
+			WebElement username = driver.findElement(By.name("email"));
+			username.sendKeys(UN);
+
+			WebElement password = driver.findElement(By.name("pass"));
+			password.sendKeys(PW);
+
+			// Assertion for login success or failure
+			String expectedUrl = "https://www.facebook.com/login.php/";
+			String actualUrl = driver.getCurrentUrl();
+			System.out.println(actualUrl);
+			Reporter.log(expectedUrl, true);
+			Reporter.log(actualUrl, true);
+			
+
+			SoftAssert sf = new SoftAssert();
+			sf.assertEquals(actualUrl, expectedUrl, "Login verification Passed");
+			sf.assertAll();
+
+		} catch (NullPointerException e) {
+			System.out.println("NullPointerException Catched");
+		} catch (IllegalArgumentException e) {
+			System.out.println("IllegalArgumentException Catched");
+		}
+
+		WebElement submitBtn = driver.findElement(By.name("login"));
+		submitBtn.click();
+		Thread.sleep(3000);
+		driver.close();
+	}
+}

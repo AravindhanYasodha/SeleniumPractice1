@@ -1,0 +1,11 @@
+package amazonpackage.AmazonProjectMaven;
+
+import org.openqa.selenium.WebDriver;
+
+public class FacebookTest extends FacebookPage{
+
+	public WebDriver driver;
+
+	driver
+	
+}

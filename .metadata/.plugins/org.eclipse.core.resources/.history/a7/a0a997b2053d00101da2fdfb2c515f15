@@ -1,0 +1,11 @@
+package amazonpackage.AmazonProjectMaven;
+
+public class Facebook {
+	
+	public WebDriver driver;
+	
+	
+	
+	
+
+}

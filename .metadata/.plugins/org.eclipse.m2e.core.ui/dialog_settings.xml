@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven"/>
+			<item value="C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\pom.xml"/>
+			<item value="C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\SeleniumFromDay1\src\SeleniumDay01Basics\AmazonSearchProduct.java"/>
+			<item value="C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\TestNGProjects\src\Utilities\BaseClass.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="FacebookPKG.FacebookProject"/>
+			<item value="amazonpackage.FlipkartProject"/>
+			<item value="amazonpackage.AmazonProjectMaven"/>
+			<item value="SampleProject"/>
+			<item value="GroTechMindBanking.GroTechMindBankingProject"/>
+		</list>
+		<list key="groupId">
+			<item value="FacebookPKG"/>
+			<item value="amazonpackage"/>
+			<item value="SampleProject"/>
+			<item value="GroTechMindBanking"/>
+		</list>
+		<list key="artifactId">
+			<item value="FacebookProject"/>
+			<item value="FlipkartProject"/>
+			<item value="AmazonProjectMaven"/>
+			<item value="GroTechMindBankingProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

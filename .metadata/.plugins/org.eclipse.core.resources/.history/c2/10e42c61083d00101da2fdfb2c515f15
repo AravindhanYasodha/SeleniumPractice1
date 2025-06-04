@@ -1,0 +1,36 @@
+package amazonpackage.AmazonProjectMaven;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class Facebook {
+
+	public WebDriver driver;
+//step1
+	@FindBy(id = "dsdea")
+	WebElement username;
+	
+	@FindBy(id="ddvev")
+	WebElement password;
+	
+	@FindBy(name="button")
+	WebElement loginBtn;
+
+	public void usernameTextBox() {
+		username.sendKeys("vdsdf");
+	}
+	public void passwordTextBox() {
+		password.sendKeys("vdsdf");
+	}
+	public void loginButton() {
+		loginBtn.sendKeys("vdsdf");
+	}
+	
+	Facebook(WebDriver driver){
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+
+}

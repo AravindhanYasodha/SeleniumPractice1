@@ -1,0 +1,58 @@
+package AmazonPractice1;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+import Utilities.BaseClass;
+import Utilities.FetchDataFromExcel;
+
+public class LoginToAmazon extends BaseClass {
+
+	@Test
+	public void login_ToAmazon() throws IOException, InterruptedException {
+
+		WebElement signinHover = driver.findElement(By.xpath("//span[text()='Hello, sign in']"));
+		Actions action = new Actions(driver);
+		action.moveToElement(signinHover).perform();
+
+		WebElement siginBtn = driver.findElement(By.xpath("//span[text()='Sign in']"));
+		siginBtn.click();
+
+		String fileLocation = "C:\\Users\\welcome\\eclipse-workspace\\GroTechMindsSelenium\\TestNGProject1\\TestData\\TestDataPersonal.xlsx";
+
+		String mobilenumber = FetchDataFromExcel.getNumericData(fileLocation, 0, 0, 1);
+
+		WebElement usernameBox = driver.findElement(By.xpath("//input[@name='email']"));
+		usernameBox.sendKeys(mobilenumber);
+
+		WebElement continueBtn = driver.findElement(By.xpath("//input[@type='submit']"));
+		continueBtn.click();
+
+		WebElement passwordPage = driver.findElement(By.xpath("//label[contains(text(),'Password')]"));
+		if (passwordPage.isDisplayed()) {
+			String password = FetchDataFromExcel.getStringData(fileLocation, 0, 0, 2);
+			WebElement passwordBox = driver.findElement(By.name("password"));
+			passwordBox.sendKeys(password);
+		}
+		
+		WebElement otpPage = driver.findElement(By.xpath("//label[text()='Enter OTP']"));
+		if (otpPage.isDisplayed()) {
+			Thread.sleep(20000);
+			WebElement signinBtn = driver.findElement(By.id("signInSubmit"));
+			signinBtn.click();
+		}
+		
+		
+		
+
+		
+
+		Reporter.log("Successfully Logged Into Amazon");
+	}
+
+}
