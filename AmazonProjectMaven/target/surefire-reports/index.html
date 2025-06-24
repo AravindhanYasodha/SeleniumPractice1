@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AmazonSuite" class="navigator-link">
+              <span class="suite-name border-failed">AmazonSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AmazonSuite" class="navigator-link ">
+                    <span>C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\amazonparalleltest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AmazonSuite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AmazonSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AmazonSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AmazonSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AmazonSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AmazonSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,  2 skipped,  9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AmazonSuite" class="hide-methods failed suite-AmazonSuite"> (hide)</a> <!-- hide-methods failed suite-AmazonSuite -->
+                      <a href="#" panel-name="suite-AmazonSuite" class="show-methods failed suite-AmazonSuite"> (show)</a> <!-- show-methods failed suite-AmazonSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-AmazonSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation" class="method navigator-link" hash-for-method="EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AmazonSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-AmazonSuite" class="hide-methods skipped suite-AmazonSuite"> (hide)</a> <!-- hide-methods skipped suite-AmazonSuite -->
+                      <a href="#" panel-name="suite-AmazonSuite" class="show-methods skipped suite-AmazonSuite"> (show)</a> <!-- show-methods skipped suite-AmazonSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-AmazonSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation" class="method navigator-link" hash-for-method="EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation" class="method navigator-link" hash-for-method="EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-AmazonSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AmazonSuite" class="hide-methods passed suite-AmazonSuite"> (hide)</a> <!-- hide-methods passed suite-AmazonSuite -->
+                      <a href="#" panel-name="suite-AmazonSuite" class="show-methods passed suite-AmazonSuite"> (show)</a> <!-- show-methods passed suite-AmazonSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AmazonSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration" class="method navigator-link" hash-for-method="NewUserRegistration">NewUserRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC05_SearchProduct" class="method navigator-link" hash-for-method="SearchProduct(Mobiles)">SearchProduct(Mobiles)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC05_SearchProduct" class="method navigator-link" hash-for-method="SearchProduct(Books)">SearchProduct(Books)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC05_SearchProduct" class="method navigator-link" hash-for-method="SearchProduct(Clocks)">SearchProduct(Clocks)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC05_SearchProduct" class="method navigator-link" hash-for-method="SearchProduct(Shoes)">SearchProduct(Shoes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID" class="method navigator-link" hash-for-method="VerifyLoginWithInvalidUser(null, cddvsafvs@gmail.rrr@, dvas)">VerifyLoginWithInvalidUser(null, cddvsafvs@gmail.rrr@, dvas)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID" class="method navigator-link" hash-for-method="VerifyLoginWithInvalidUser(null, 226365622, dfa)">VerifyLoginWithInvalidUser(null, 226365622, dfa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID" class="method navigator-link" hash-for-method="VerifyLoginWithInvalidUser(null, 7010367624, dsvadsv)">VerifyLoginWithInvalidUser(null, 7010367624, dsvadsv)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AmazonSuite" title="amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID" class="method navigator-link" hash-for-method="VerifyLoginWithValidUser(7010367624, Gunapaaroli@1210)">VerifyLoginWithValidUser(7010367624, Gunapaaroli@1210)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AmazonSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AmazonSuite" class="panel AmazonSuite">
+          <div class="suite-AmazonSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)">
+                  </a> <!-- EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind) -->
+                  <span class="method-name">EditProfileInformation</span>
+                  <span class="parameters">(7010367624,Gunapaaroli@1210,Aravind)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;a-button-text&quot; aria-hidden=&quot;true&quot; id=&quot;a-autoid-0-announce&quot;&gt;...&lt;/span&gt; is not clickable at point (527, 374). Other element would receive the click: &lt;input id=&quot;cnep_1C_submit_button&quot; tabindex=&quot;3&quot; class=&quot;a-button-input&quot; type=&quot;submit&quot; aria-labelledby=&quot;a-autoid-0-announce&quot;&gt;
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4c8f150cfd562b5317069f5e741a6708, clickElement {id=f.EF5B5BD3AC3EBFF81E6D667AD2B3C6CE.d.48D783A82861DC29C29928BB35E90BE2.e.424}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64453}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64453/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (4c8f150cfd562b5317069f5e741a6708)] -&gt; xpath: //span[contains(text(),&apos;Save changes&apos;)]]
+Session ID: 4c8f150cfd562b5317069f5e741a6708
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at amazonpackage.AmazonProjectMaven.AmzLoginSecurityPage.clickOnSaveChangesBtn(AmzLoginSecurityPage.java:72)
+	at amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation.EditProfileInformation(TC04_EditProfileInformation.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonSuite-class-failed -->
+          <div class="suite-AmazonSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)">
+                  </a> <!-- EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind) -->
+                  <span class="method-name">EditProfileInformation</span>
+                  <span class="parameters">(7010367624,Gunapaaroli@1210,Aravind)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;a-button-text&quot; aria-hidden=&quot;true&quot; id=&quot;a-autoid-0-announce&quot;&gt;...&lt;/span&gt; is not clickable at point (527, 374). Other element would receive the click: &lt;input id=&quot;cnep_1C_submit_button&quot; tabindex=&quot;3&quot; class=&quot;a-button-input&quot; type=&quot;submit&quot; aria-labelledby=&quot;a-autoid-0-announce&quot;&gt;
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a92514d271880785c6a315fd7e3baf1f, clickElement {id=f.850888A53DBEA1FA4C89246181F6C470.d.9D322B6DE3E709C06BC676A8FF531083.e.463}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64273}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64273/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a92514d271880785c6a315fd7e3baf1f)] -&gt; xpath: //span[contains(text(),&apos;Save changes&apos;)]]
+Session ID: a92514d271880785c6a315fd7e3baf1f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at amazonpackage.AmazonProjectMaven.AmzLoginSecurityPage.clickOnSaveChangesBtn(AmzLoginSecurityPage.java:72)
+	at amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation.EditProfileInformation(TC04_EditProfileInformation.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)">
+                  </a> <!-- EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind) -->
+                  <span class="method-name">EditProfileInformation</span>
+                  <span class="parameters">(7010367624,Gunapaaroli@1210,Aravind)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;a-button-text&quot; aria-hidden=&quot;true&quot; id=&quot;a-autoid-0-announce&quot;&gt;...&lt;/span&gt; is not clickable at point (527, 374). Other element would receive the click: &lt;input id=&quot;cnep_1C_submit_button&quot; tabindex=&quot;3&quot; class=&quot;a-button-input&quot; type=&quot;submit&quot; aria-labelledby=&quot;a-autoid-0-announce&quot;&gt;
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a9ec118617178e7888fe479b650c748f, clickElement {id=f.E362D2D443089F4F9F1197590D3F2CFA.d.0FB91B69E0F4E8B1089412E0E9E8B44F.e.448}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63258}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63258/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a9ec118617178e7888fe479b650c748f)] -&gt; xpath: //span[contains(text(),&apos;Save changes&apos;)]]
+Session ID: a9ec118617178e7888fe479b650c748f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at amazonpackage.AmazonProjectMaven.AmzLoginSecurityPage.clickOnSaveChangesBtn(AmzLoginSecurityPage.java:72)
+	at amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation.EditProfileInformation(TC04_EditProfileInformation.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonSuite-class-skipped -->
+          <div class="suite-AmazonSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithValidUser(7010367624, Gunapaaroli@1210)">
+                  </a> <!-- VerifyLoginWithValidUser(7010367624, Gunapaaroli@1210) -->
+                  <span class="method-name">VerifyLoginWithValidUser</span>
+                  <span class="parameters">(7010367624,Gunapaaroli@1210)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonSuite-class-passed -->
+          <div class="suite-AmazonSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithInvalidUser(null, cddvsafvs@gmail.rrr@, dvas)">
+                  </a> <!-- VerifyLoginWithInvalidUser(null, cddvsafvs@gmail.rrr@, dvas) -->
+                  <span class="method-name">VerifyLoginWithInvalidUser</span>
+                  <span class="parameters">(null,cddvsafvs@gmail.rrr@,dvas)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithInvalidUser(null, 226365622, dfa)">
+                  </a> <!-- VerifyLoginWithInvalidUser(null, 226365622, dfa) -->
+                  <span class="method-name">VerifyLoginWithInvalidUser</span>
+                  <span class="parameters">(null,226365622,dfa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginWithInvalidUser(null, 7010367624, dsvadsv)">
+                  </a> <!-- VerifyLoginWithInvalidUser(null, 7010367624, dsvadsv) -->
+                  <span class="method-name">VerifyLoginWithInvalidUser</span>
+                  <span class="parameters">(null,7010367624,dsvadsv)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonSuite-class-passed -->
+          <div class="suite-AmazonSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProduct(Mobiles)">
+                  </a> <!-- SearchProduct(Mobiles) -->
+                  <span class="method-name">SearchProduct</span>
+                  <span class="parameters">(Mobiles)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProduct(Books)">
+                  </a> <!-- SearchProduct(Books) -->
+                  <span class="method-name">SearchProduct</span>
+                  <span class="parameters">(Books)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProduct(Clocks)">
+                  </a> <!-- SearchProduct(Clocks) -->
+                  <span class="method-name">SearchProduct</span>
+                  <span class="parameters">(Clocks)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProduct(Shoes)">
+                  </a> <!-- SearchProduct(Shoes) -->
+                  <span class="method-name">SearchProduct</span>
+                  <span class="parameters">(Shoes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonSuite-class-passed -->
+          <div class="suite-AmazonSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NewUserRegistration">
+                  </a> <!-- NewUserRegistration -->
+                  <span class="method-name">NewUserRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AmazonSuite-class-passed -->
+        </div> <!-- panel AmazonSuite -->
+        <div panel-name="test-xml-AmazonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\amazonparalleltest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;AmazonSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;AmazonTC01&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AmazonTC01 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;AmazonTC02&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AmazonTC02 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;AmazonTC03&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AmazonTC03 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;AmazonTC04&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AmazonTC04 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;AmazonTC05&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;amazonpackage.AmazonProjectMaven.TC05_SearchProduct&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AmazonTC05 --&gt;
+&lt;/suite&gt; &lt;!-- AmazonSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AmazonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AmazonSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AmazonTC01 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AmazonTC02 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AmazonTC03 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AmazonTC04 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AmazonTC05 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AmazonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AmazonSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AmazonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AmazonSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AmazonSuite');
+function tableData_AmazonSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'EditProfileInformation')
+data.setCell(0, 2, 'amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation')
+data.setCell(0, 3, 89474);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'EditProfileInformation')
+data.setCell(1, 2, 'amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation')
+data.setCell(1, 3, 74772);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'EditProfileInformation')
+data.setCell(2, 2, 'amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation')
+data.setCell(2, 3, 58672);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyLoginWithInvalidUser')
+data.setCell(3, 2, 'amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID')
+data.setCell(3, 3, 54274);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'NewUserRegistration')
+data.setCell(4, 2, 'amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration')
+data.setCell(4, 3, 44121);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyLoginWithValidUser')
+data.setCell(5, 2, 'amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID')
+data.setCell(5, 3, 35274);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyLoginWithInvalidUser')
+data.setCell(6, 2, 'amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID')
+data.setCell(6, 3, 27208);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'SearchProduct')
+data.setCell(7, 2, 'amazonpackage.AmazonProjectMaven.TC05_SearchProduct')
+data.setCell(7, 3, 20463);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyLoginWithInvalidUser')
+data.setCell(8, 2, 'amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID')
+data.setCell(8, 3, 20243);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'SearchProduct')
+data.setCell(9, 2, 'amazonpackage.AmazonProjectMaven.TC05_SearchProduct')
+data.setCell(9, 3, 10623);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SearchProduct')
+data.setCell(10, 2, 'amazonpackage.AmazonProjectMaven.TC05_SearchProduct')
+data.setCell(10, 3, 7158);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'SearchProduct')
+data.setCell(11, 2, 'amazonpackage.AmazonProjectMaven.TC05_SearchProduct')
+data.setCell(11, 3, 5687);
+window.suiteTableData['AmazonSuite']= { tableData: data, tableDiv: 'times-div-AmazonSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-AmazonSuite">
+              </div> <!-- times-div-AmazonSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AmazonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AmazonSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyLoginWithValidUser(7010367624, Gunapaaroli@1210)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started VerifyLoginWithValidUser</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Signin button</span>
+                <span class="reporter-method-output">User Entered Mobile# or Email : 7010367624</span>
+                <span class="reporter-method-output">User Clicked Continue Button</span>
+                <span class="reporter-method-output">User Entered Password : password</span>
+                <span class="reporter-method-output">User Clicked Sigin Button</span>
+                <span class="reporter-method-output">Verified Used Name is : Hello, Aravind</span>
+                <span class="reporter-method-output">Test Success VerifyLoginWithValidUser</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">NewUserRegistration</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started NewUserRegistration</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked the Start Here hyperLink</span>
+                <span class="reporter-method-output">User Entered Mobile# or Email : ApOFbYKnbD@gmail.com</span>
+                <span class="reporter-method-output">User Clicked Continue Button</span>
+                <span class="reporter-method-output">User Clicked Proceed Create Account Button</span>
+                <span class="reporter-method-output">User Entered : 9436234830</span>
+                <span class="reporter-method-output">User Entered : hu0h1jzW1m</span>
+                <span class="reporter-method-output">User Entered Password : password</span>
+                <span class="reporter-method-output">User Clicked Verify Mobile number Button</span>
+                <span class="reporter-method-output">Test Success NewUserRegistration</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchProduct(Mobiles)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started SearchProduct</span>
+                <span class="reporter-method-output">User Entered Product in Search: Mobiles</span>
+                <span class="reporter-method-output">User Clicked Search Icon</span>
+                <span class="reporter-method-output">Amazon.in : Mobiles</span>
+                <span class="reporter-method-output">Test Success SearchProduct</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchProduct(Books)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started SearchProduct</span>
+                <span class="reporter-method-output">User Entered Product in Search: Books</span>
+                <span class="reporter-method-output">User Clicked Search Icon</span>
+                <span class="reporter-method-output">Amazon.in : Books</span>
+                <span class="reporter-method-output">Test Success SearchProduct</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchProduct(Clocks)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started SearchProduct</span>
+                <span class="reporter-method-output">User Entered Product in Search: Clocks</span>
+                <span class="reporter-method-output">User Clicked Search Icon</span>
+                <span class="reporter-method-output">Amazon.in : Clocks</span>
+                <span class="reporter-method-output">Test Success SearchProduct</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchProduct(Shoes)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started SearchProduct</span>
+                <span class="reporter-method-output">User Entered Product in Search: Shoes</span>
+                <span class="reporter-method-output">User Clicked Search Icon</span>
+                <span class="reporter-method-output">Amazon.in : Shoes</span>
+                <span class="reporter-method-output">Test Success SearchProduct</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyLoginWithInvalidUser(null, cddvsafvs@gmail.rrr@, dvas)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started VerifyLoginWithInvalidUser</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Signin button</span>
+                <span class="reporter-method-output">User Entered Mobile# or Email : cddvsafvs@gmail.rrr@</span>
+                <span class="reporter-method-output">User Clicked Continue Button</span>
+                <span class="reporter-method-output">Verified Invalid Email Address : Invalid email address.</span>
+                <span class="reporter-method-output">Test Success VerifyLoginWithInvalidUser</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyLoginWithInvalidUser(null, 226365622, dfa)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started VerifyLoginWithInvalidUser</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Signin button</span>
+                <span class="reporter-method-output">User Entered Mobile# or Email : 226365622</span>
+                <span class="reporter-method-output">User Clicked Continue Button</span>
+                <span class="reporter-method-output">Verified Invalid Mobile Number : Invalid mobile number</span>
+                <span class="reporter-method-output">Test Success VerifyLoginWithInvalidUser</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">VerifyLoginWithInvalidUser(null, 7010367624, dsvadsv)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started VerifyLoginWithInvalidUser</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Signin button</span>
+                <span class="reporter-method-output">User Entered Mobile# or Email : 7010367624</span>
+                <span class="reporter-method-output">User Clicked Continue Button</span>
+                <span class="reporter-method-output">User Entered Password : password</span>
+                <span class="reporter-method-output">User Clicked Sigin Button</span>
+                <span class="reporter-method-output">Verified Incorrect Password : Your password is incorrect</span>
+                <span class="reporter-method-output">Test Success VerifyLoginWithInvalidUser</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started EditProfileInformation</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Signin button</span>
+                <span class="reporter-method-output">User Entered Mobile# or Email : 7010367624</span>
+                <span class="reporter-method-output">User Clicked Continue Button</span>
+                <span class="reporter-method-output">User Entered Password : password</span>
+                <span class="reporter-method-output">User Clicked Sigin Button</span>
+                <span class="reporter-method-output">Verified Used Name is : Hello, Aravind</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Your Account hyperLink</span>
+                <span class="reporter-method-output">User Clicked on the Login & Security</span>
+                <span class="reporter-method-output">OTP Page is Present : Enter verification code</span>
+                <span class="reporter-method-output">Used Clicked Edit button in Name</span>
+                <span class="reporter-method-output">Current User Name is : </span>
+                <span class="reporter-method-output">Test Failed EditProfileInformation</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started EditProfileInformation</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Signin button</span>
+                <span class="reporter-method-output">User Entered Mobile# or Email : 7010367624</span>
+                <span class="reporter-method-output">User Clicked Continue Button</span>
+                <span class="reporter-method-output">User Entered Password : password</span>
+                <span class="reporter-method-output">User Clicked Sigin Button</span>
+                <span class="reporter-method-output">Verified Used Name is : Hello, Aravind</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Your Account hyperLink</span>
+                <span class="reporter-method-output">User Clicked on the Login & Security</span>
+                <span class="reporter-method-output">OTP Page is Present : Enter verification code</span>
+                <span class="reporter-method-output">Used Clicked Edit button in Name</span>
+                <span class="reporter-method-output">Current User Name is : </span>
+                <span class="reporter-method-output">Test Skipped EditProfileInformation</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Started EditProfileInformation</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Signin button</span>
+                <span class="reporter-method-output">User Entered Mobile# or Email : 7010367624</span>
+                <span class="reporter-method-output">User Clicked Continue Button</span>
+                <span class="reporter-method-output">User Entered Password : password</span>
+                <span class="reporter-method-output">User Clicked Sigin Button</span>
+                <span class="reporter-method-output">Verified Used Name is : Hello, Aravind</span>
+                <span class="reporter-method-output">User Mouse Hover on the Profile</span>
+                <span class="reporter-method-output">User Clicked on Your Account hyperLink</span>
+                <span class="reporter-method-output">User Clicked on the Login & Security</span>
+                <span class="reporter-method-output">OTP Page is Present : Enter verification code</span>
+                <span class="reporter-method-output">Used Clicked Edit button in Name</span>
+                <span class="reporter-method-output">Current User Name is : </span>
+                <span class="reporter-method-output">Test Skipped EditProfileInformation</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AmazonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AmazonSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(edge)</span>
+                <span class="method-start">1763 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">1874 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(edge)</span>
+                <span class="method-start">1904 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">2070 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NewUserRegistration</span>
+                <span class="method-start">10761 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithInvalidUser(null, 226365622, dfa)</span>
+                <span class="method-start">15186 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SearchProduct(Shoes)</span>
+                <span class="method-start">18650 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithValidUser(7010367624, Gunapaaroli@1210)</span>
+                <span class="method-start">21411 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</span>
+                <span class="method-start">29155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">40082 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">42851 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">55377 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">58326 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">69256 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">69630 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SearchProduct(Mobiles)</span>
+                <span class="method-start">75760 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithInvalidUser(null, cddvsafvs@gmail.rrr@, dvas)</span>
+                <span class="method-start">76695 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">83888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">88566 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchProduct(Books)</span>
+                <span class="method-start">92100 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">97603 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">98250 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">99724 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(chrome)</span>
+                <span class="method-start">102122 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SearchProduct(Clocks)</span>
+                <span class="method-start">111204 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginWithInvalidUser(null, 7010367624, dsvadsv)</span>
+                <span class="method-start">116015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">119653 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC05_SearchProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">122527 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(edge)</span>
+                <span class="method-start">126442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</span>
+                <span class="method-start">134675 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">170598 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">193528 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser(edge)</span>
+                <span class="method-start">195451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">EditProfileInformation(7010367624, Gunapaaroli@1210, Aravind)</span>
+                <span class="method-start">208102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">QuitBrowser</span>
+                <span class="method-start">283067 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

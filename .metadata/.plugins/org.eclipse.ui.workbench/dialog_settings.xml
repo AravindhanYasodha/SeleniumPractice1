@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialog.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="557"/>
+		<item key="DIALOG_X_ORIGIN" value="523"/>
 		<item key="DIALOG_Y_ORIGIN" value="75"/>
 		<item key="DIALOG_WIDTH" value="1020"/>
 		<item key="DIALOG_HEIGHT" value="667"/>
@@ -20,5 +20,12 @@
 		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".html"/>
 		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
 		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.ui.browser.editorSupport"/>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="-144"/>
+		<item key="DIALOG_Y_ORIGIN" value="-177"/>
+		<item key="DIALOG_WIDTH" value="930"/>
+		<item key="DIALOG_HEIGHT" value="978"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

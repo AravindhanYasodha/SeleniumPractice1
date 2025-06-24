@@ -4,6 +4,7 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="TakesScreenshot"/>
 			<item value="org/apache/logging/log4j/LogManager"/>
 			<item value="org/apache/logging"/>
 			<item value="org/apache/logging/log4j"/>

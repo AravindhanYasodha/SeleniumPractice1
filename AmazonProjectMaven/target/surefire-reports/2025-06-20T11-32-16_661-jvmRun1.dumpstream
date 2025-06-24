@@ -1,0 +1,4 @@
+# Created at 2025-06-20T11:32:20.006
+
+Two tests in the same suite [AmazonSuite] cannot have the same name: AmazonTC04
+

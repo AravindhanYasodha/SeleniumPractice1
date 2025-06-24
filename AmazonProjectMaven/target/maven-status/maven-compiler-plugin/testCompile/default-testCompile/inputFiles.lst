@@ -1,0 +1,16 @@
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC01_NewUserRegistration.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC02_VerifyLoginWithValidUserID.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC03_VerifyLoginWithInValidUserID.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC04_EditProfileInformation.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC05_SearchProduct.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC06_SearchProduchWithFilter.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC07_VerifyProductDetailsPage.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC08_VerifySortingProductResult.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC09_VerifyAddToCart.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC10_AddAndRemoveItemFromCartPage.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC11_ValidateEntireCheckOutProcess.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC12_VerifyEachPaymentMethods.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC13_VerifyApplyCouponCode.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC14_5StarRatingForLastOrderedItem.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\amazonpackage\AmazonProjectMaven\TC15_ReachCartPageWithoutLogin.java
+C:\Users\welcome\eclipse-workspace\GroTechMindsSelenium\AmazonProjectMaven\src\test\java\OtherPractices\SelectHighestOrLowestPriceProduct.java

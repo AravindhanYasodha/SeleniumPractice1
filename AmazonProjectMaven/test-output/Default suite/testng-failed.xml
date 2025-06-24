@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazonpackage.AmazonProjectMaven.FacebookTest">
+      <class name="amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation">
         <methods>
-          <include name="loginToFacebook"/>
+          <include name="LaunchBrowser"/>
+          <include name="QuitBrowser"/>
+          <include name="EditProfileInformation"/>
         </methods>
-      </class> <!-- amazonpackage.AmazonProjectMaven.FacebookTest -->
+      </class> <!-- amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

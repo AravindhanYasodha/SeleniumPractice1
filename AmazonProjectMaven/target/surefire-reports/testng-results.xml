@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="12" passed="9" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[Edge Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started NewUserRegistration]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started VerifyLoginWithInvalidUser]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started SearchProduct]]>
+    </line>
+    <line>
+      <![CDATA[Edge Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started VerifyLoginWithValidUser]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Product in Search: Shoes]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked the Start Here hyperLink]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started EditProfileInformation]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Signin button]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Signin button]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Mobile# or Email : ApOFbYKnbD@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Mobile# or Email : 226365622]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Search Icon]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Signin button]]>
+    </line>
+    <line>
+      <![CDATA[Amazon.in : Shoes]]>
+    </line>
+    <line>
+      <![CDATA[Test Success SearchProduct]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[Verified Invalid Mobile Number : Invalid mobile number]]>
+    </line>
+    <line>
+      <![CDATA[Test Success VerifyLoginWithInvalidUser]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Password : password]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Password : password]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Proceed Create Account Button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered : 9436234830]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Sigin Button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered : hu0h1jzW1m]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Sigin Button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Password : password]]>
+    </line>
+    <line>
+      <![CDATA[Verified Used Name is : Hello, Aravind]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Verify Mobile number Button]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Your Account hyperLink]]>
+    </line>
+    <line>
+      <![CDATA[Test Success NewUserRegistration]]>
+    </line>
+    <line>
+      <![CDATA[Verified Used Name is : Hello, Aravind]]>
+    </line>
+    <line>
+      <![CDATA[Test Success VerifyLoginWithValidUser]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on the Login & Security]]>
+    </line>
+    <line>
+      <![CDATA[OTP Page is Present : Enter verification code]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started SearchProduct]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started VerifyLoginWithInvalidUser]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Product in Search: Mobiles]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Signin button]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Search Icon]]>
+    </line>
+    <line>
+      <![CDATA[Amazon.in : Mobiles]]>
+    </line>
+    <line>
+      <![CDATA[Test Success SearchProduct]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Mobile# or Email : cddvsafvs@gmail.rrr@]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started SearchProduct]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Product in Search: Books]]>
+    </line>
+    <line>
+      <![CDATA[Verified Invalid Email Address : Invalid email address.]]>
+    </line>
+    <line>
+      <![CDATA[Test Success VerifyLoginWithInvalidUser]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Search Icon]]>
+    </line>
+    <line>
+      <![CDATA[Amazon.in : Books]]>
+    </line>
+    <line>
+      <![CDATA[Test Success SearchProduct]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started SearchProduct]]>
+    </line>
+    <line>
+      <![CDATA[Used Clicked Edit button in Name]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Product in Search: Clocks]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started VerifyLoginWithInvalidUser]]>
+    </line>
+    <line>
+      <![CDATA[Current User Name is : ]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[Test Skipped EditProfileInformation]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Signin button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Search Icon]]>
+    </line>
+    <line>
+      <![CDATA[Amazon.in : Clocks]]>
+    </line>
+    <line>
+      <![CDATA[Test Success SearchProduct]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[Edge Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started EditProfileInformation]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Signin button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Password : password]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Sigin Button]]>
+    </line>
+    <line>
+      <![CDATA[Verified Used Name is : Hello, Aravind]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Your Account hyperLink]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on the Login & Security]]>
+    </line>
+    <line>
+      <![CDATA[OTP Page is Present : Enter verification code]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Password : password]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Sigin Button]]>
+    </line>
+    <line>
+      <![CDATA[Verified Incorrect Password : Your password is incorrect]]>
+    </line>
+    <line>
+      <![CDATA[Test Success VerifyLoginWithInvalidUser]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[Used Clicked Edit button in Name]]>
+    </line>
+    <line>
+      <![CDATA[Current User Name is : ]]>
+    </line>
+    <line>
+      <![CDATA[Test Skipped EditProfileInformation]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+    <line>
+      <![CDATA[Edge Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Launched https://www.amazon.in/ Application]]>
+    </line>
+    <line>
+      <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+    </line>
+    <line>
+      <![CDATA[Test Started EditProfileInformation]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Signin button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Password : password]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked Sigin Button]]>
+    </line>
+    <line>
+      <![CDATA[Verified Used Name is : Hello, Aravind]]>
+    </line>
+    <line>
+      <![CDATA[User Mouse Hover on the Profile]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on Your Account hyperLink]]>
+    </line>
+    <line>
+      <![CDATA[User Clicked on the Login & Security]]>
+    </line>
+    <line>
+      <![CDATA[OTP Page is Present : Enter verification code]]>
+    </line>
+    <line>
+      <![CDATA[Used Clicked Edit button in Name]]>
+    </line>
+    <line>
+      <![CDATA[Current User Name is : ]]>
+    </line>
+    <line>
+      <![CDATA[Test Failed EditProfileInformation]]>
+    </line>
+    <line>
+      <![CDATA[User Quit Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-06-20T11:33:20 IST" name="AmazonSuite" finished-at="2025-06-20T11:38:05 IST" duration-ms="285070">
+    <groups>
+    </groups>
+    <test started-at="2025-06-20T11:33:20 IST" name="AmazonTC02" finished-at="2025-06-20T11:34:30 IST" duration-ms="69675">
+      <class name="amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID@563e4951]" started-at="2025-06-20T11:33:22 IST" name="LaunchBrowser" finished-at="2025-06-20T11:33:42 IST" duration-ms="19648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyLoginWithValidUser(java.lang.String,java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID@563e4951]" started-at="2025-06-20T11:33:42 IST" name="VerifyLoginWithValidUser" data-provider="dataset" finished-at="2025-06-20T11:34:17 IST" duration-ms="35274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7010367624]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gunapaaroli@1210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started VerifyLoginWithValidUser]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Signin button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Password : password]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Sigin Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Used Name is : Hello, Aravind]]>
+            </line>
+            <line>
+              <![CDATA[Test Success VerifyLoginWithValidUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidUser -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID@563e4951]" started-at="2025-06-20T11:34:19 IST" name="QuitBrowser" finished-at="2025-06-20T11:34:30 IST" duration-ms="11274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- amazonpackage.AmazonProjectMaven.TC02_VerifyLoginWithValidUserID -->
+    </test> <!-- AmazonTC02 -->
+    <test started-at="2025-06-20T11:33:20 IST" name="AmazonTC01" finished-at="2025-06-20T11:34:47 IST" duration-ms="86601">
+      <class name="amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration@3e44f2a5]" started-at="2025-06-20T11:33:20 IST" name="LaunchBrowser" finished-at="2025-06-20T11:33:31 IST" duration-ms="10648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="NewUserRegistration()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration@3e44f2a5]" started-at="2025-06-20T11:33:31 IST" name="NewUserRegistration" finished-at="2025-06-20T11:34:15 IST" duration-ms="44121" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started NewUserRegistration]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked the Start Here hyperLink]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Mobile# or Email : ApOFbYKnbD@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Proceed Create Account Button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered : 9436234830]]>
+            </line>
+            <line>
+              <![CDATA[User Entered : hu0h1jzW1m]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Password : password]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Verify Mobile number Button]]>
+            </line>
+            <line>
+              <![CDATA[Test Success NewUserRegistration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NewUserRegistration -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration@3e44f2a5]" started-at="2025-06-20T11:34:16 IST" name="QuitBrowser" finished-at="2025-06-20T11:34:47 IST" duration-ms="31152" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- amazonpackage.AmazonProjectMaven.TC01_NewUserRegistration -->
+    </test> <!-- AmazonTC01 -->
+    <test started-at="2025-06-20T11:33:20 IST" name="AmazonTC05" finished-at="2025-06-20T11:35:26 IST" duration-ms="125758">
+      <class name="amazonpackage.AmazonProjectMaven.TC05_SearchProduct">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:33:22 IST" name="LaunchBrowser" finished-at="2025-06-20T11:33:39 IST" duration-ms="16776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="SearchProduct(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:33:39 IST" name="SearchProduct" data-provider="dataset" finished-at="2025-06-20T11:33:59 IST" duration-ms="20463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started SearchProduct]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Product in Search: Shoes]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Search Icon]]>
+            </line>
+            <line>
+              <![CDATA[Amazon.in : Shoes]]>
+            </line>
+            <line>
+              <![CDATA[Test Success SearchProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:34:00 IST" name="QuitBrowser" finished-at="2025-06-20T11:34:30 IST" duration-ms="29174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:34:30 IST" name="LaunchBrowser" finished-at="2025-06-20T11:34:36 IST" duration-ms="6504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="SearchProduct(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:34:36 IST" name="SearchProduct" data-provider="dataset" finished-at="2025-06-20T11:34:43 IST" duration-ms="7158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started SearchProduct]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Product in Search: Mobiles]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Search Icon]]>
+            </line>
+            <line>
+              <![CDATA[Amazon.in : Mobiles]]>
+            </line>
+            <line>
+              <![CDATA[Test Success SearchProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:34:44 IST" name="QuitBrowser" finished-at="2025-06-20T11:34:49 IST" duration-ms="4678" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:34:49 IST" name="LaunchBrowser" finished-at="2025-06-20T11:34:52 IST" duration-ms="3534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="SearchProduct(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:34:52 IST" name="SearchProduct" data-provider="dataset" finished-at="2025-06-20T11:34:58 IST" duration-ms="5687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started SearchProduct]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Product in Search: Books]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Search Icon]]>
+            </line>
+            <line>
+              <![CDATA[Amazon.in : Books]]>
+            </line>
+            <line>
+              <![CDATA[Test Success SearchProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:34:59 IST" name="QuitBrowser" finished-at="2025-06-20T11:35:00 IST" duration-ms="1472" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:35:00 IST" name="LaunchBrowser" finished-at="2025-06-20T11:35:12 IST" duration-ms="11480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="SearchProduct(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:35:12 IST" name="SearchProduct" data-provider="dataset" finished-at="2025-06-20T11:35:22 IST" duration-ms="10623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Clocks]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started SearchProduct]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Product in Search: Clocks]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Search Icon]]>
+            </line>
+            <line>
+              <![CDATA[Amazon.in : Clocks]]>
+            </line>
+            <line>
+              <![CDATA[Test Success SearchProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC05_SearchProduct@5170bcf4]" started-at="2025-06-20T11:35:23 IST" name="QuitBrowser" finished-at="2025-06-20T11:35:26 IST" duration-ms="3160" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- amazonpackage.AmazonProjectMaven.TC05_SearchProduct -->
+    </test> <!-- AmazonTC05 -->
+    <test started-at="2025-06-20T11:33:20 IST" name="AmazonTC03" finished-at="2025-06-20T11:36:14 IST" duration-ms="173473">
+      <class name="amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:33:22 IST" name="LaunchBrowser" finished-at="2025-06-20T11:33:36 IST" duration-ms="13115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyLoginWithInvalidUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:33:36 IST" name="VerifyLoginWithInvalidUser" data-provider="dataset1" finished-at="2025-06-20T11:34:03 IST" duration-ms="27208" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[226365622]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started VerifyLoginWithInvalidUser]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Signin button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Mobile# or Email : 226365622]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Invalid Mobile Number : Invalid mobile number]]>
+            </line>
+            <line>
+              <![CDATA[Test Success VerifyLoginWithInvalidUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvalidUser -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:34:03 IST" name="QuitBrowser" finished-at="2025-06-20T11:34:30 IST" duration-ms="26778" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:34:30 IST" name="LaunchBrowser" finished-at="2025-06-20T11:34:37 IST" duration-ms="7065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyLoginWithInvalidUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:34:37 IST" name="VerifyLoginWithInvalidUser" data-provider="dataset1" finished-at="2025-06-20T11:34:57 IST" duration-ms="20243" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cddvsafvs@gmail.rrr@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dvas]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started VerifyLoginWithInvalidUser]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Signin button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Mobile# or Email : cddvsafvs@gmail.rrr@]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Invalid Email Address : Invalid email address.]]>
+            </line>
+            <line>
+              <![CDATA[Test Success VerifyLoginWithInvalidUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvalidUser -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:34:58 IST" name="QuitBrowser" finished-at="2025-06-20T11:35:02 IST" duration-ms="4517" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:35:02 IST" name="LaunchBrowser" finished-at="2025-06-20T11:35:16 IST" duration-ms="13893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifyLoginWithInvalidUser(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:35:16 IST" name="VerifyLoginWithInvalidUser" data-provider="dataset1" finished-at="2025-06-20T11:36:11 IST" duration-ms="54274" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7010367624]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dsvadsv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started VerifyLoginWithInvalidUser]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Signin button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Password : password]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Sigin Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Incorrect Password : Your password is incorrect]]>
+            </line>
+            <line>
+              <![CDATA[Test Success VerifyLoginWithInvalidUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvalidUser -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID@1ae8bcbc]" started-at="2025-06-20T11:36:11 IST" name="QuitBrowser" finished-at="2025-06-20T11:36:14 IST" duration-ms="2806" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- amazonpackage.AmazonProjectMaven.TC03_VerifyLoginWithInValidUserID -->
+    </test> <!-- AmazonTC03 -->
+    <test started-at="2025-06-20T11:33:20 IST" name="AmazonTC04" finished-at="2025-06-20T11:38:05 IST" duration-ms="285069">
+      <class name="amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:33:22 IST" name="LaunchBrowser" finished-at="2025-06-20T11:33:49 IST" duration-ms="27249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method retried="true" signature="EditProfileInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:33:49 IST" name="EditProfileInformation" data-provider="dataset" finished-at="2025-06-20T11:35:19 IST" duration-ms="89474" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7010367624]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gunapaaroli@1210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aravind]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (527, 374). Other element would receive the click: <input id="cnep_1C_submit_button" tabindex="3" class="a-button-input" type="submit" aria-labelledby="a-autoid-0-announce">
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a9ec118617178e7888fe479b650c748f, clickElement {id=f.E362D2D443089F4F9F1197590D3F2CFA.d.0FB91B69E0F4E8B1089412E0E9E8B44F.e.448}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63258}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63258/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a9ec118617178e7888fe479b650c748f)] -> xpath: //span[contains(text(),'Save changes')]]
+Session ID: a9ec118617178e7888fe479b650c748f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (527, 374). Other element would receive the click: <input id="cnep_1C_submit_button" tabindex="3" class="a-button-input" type="submit" aria-labelledby="a-autoid-0-announce">
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a9ec118617178e7888fe479b650c748f, clickElement {id=f.E362D2D443089F4F9F1197590D3F2CFA.d.0FB91B69E0F4E8B1089412E0E9E8B44F.e.448}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63258}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63258/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a9ec118617178e7888fe479b650c748f)] -> xpath: //span[contains(text(),'Save changes')]]
+Session ID: a9ec118617178e7888fe479b650c748f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at amazonpackage.AmazonProjectMaven.AmzLoginSecurityPage.clickOnSaveChangesBtn(AmzLoginSecurityPage.java:72)
+at amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation.EditProfileInformation(TC04_EditProfileInformation.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started EditProfileInformation]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Signin button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Password : password]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Sigin Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Used Name is : Hello, Aravind]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Your Account hyperLink]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on the Login & Security]]>
+            </line>
+            <line>
+              <![CDATA[OTP Page is Present : Enter verification code]]>
+            </line>
+            <line>
+              <![CDATA[Used Clicked Edit button in Name]]>
+            </line>
+            <line>
+              <![CDATA[Current User Name is : ]]>
+            </line>
+            <line>
+              <![CDATA[Test Skipped EditProfileInformation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditProfileInformation -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:35:20 IST" name="QuitBrowser" finished-at="2025-06-20T11:35:27 IST" duration-ms="6787" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:35:27 IST" name="LaunchBrowser" finished-at="2025-06-20T11:35:35 IST" duration-ms="8233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method retried="true" signature="EditProfileInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:35:35 IST" name="EditProfileInformation" data-provider="dataset" finished-at="2025-06-20T11:36:34 IST" duration-ms="58672" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7010367624]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gunapaaroli@1210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aravind]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (527, 374). Other element would receive the click: <input id="cnep_1C_submit_button" tabindex="3" class="a-button-input" type="submit" aria-labelledby="a-autoid-0-announce">
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a92514d271880785c6a315fd7e3baf1f, clickElement {id=f.850888A53DBEA1FA4C89246181F6C470.d.9D322B6DE3E709C06BC676A8FF531083.e.463}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64273}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64273/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a92514d271880785c6a315fd7e3baf1f)] -> xpath: //span[contains(text(),'Save changes')]]
+Session ID: a92514d271880785c6a315fd7e3baf1f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (527, 374). Other element would receive the click: <input id="cnep_1C_submit_button" tabindex="3" class="a-button-input" type="submit" aria-labelledby="a-autoid-0-announce">
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a92514d271880785c6a315fd7e3baf1f, clickElement {id=f.850888A53DBEA1FA4C89246181F6C470.d.9D322B6DE3E709C06BC676A8FF531083.e.463}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64273}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64273/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a92514d271880785c6a315fd7e3baf1f)] -> xpath: //span[contains(text(),'Save changes')]]
+Session ID: a92514d271880785c6a315fd7e3baf1f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at amazonpackage.AmazonProjectMaven.AmzLoginSecurityPage.clickOnSaveChangesBtn(AmzLoginSecurityPage.java:72)
+at amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation.EditProfileInformation(TC04_EditProfileInformation.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started EditProfileInformation]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Signin button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Password : password]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Sigin Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Used Name is : Hello, Aravind]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Your Account hyperLink]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on the Login & Security]]>
+            </line>
+            <line>
+              <![CDATA[OTP Page is Present : Enter verification code]]>
+            </line>
+            <line>
+              <![CDATA[Used Clicked Edit button in Name]]>
+            </line>
+            <line>
+              <![CDATA[Current User Name is : ]]>
+            </line>
+            <line>
+              <![CDATA[Test Skipped EditProfileInformation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditProfileInformation -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:36:34 IST" name="QuitBrowser" finished-at="2025-06-20T11:36:36 IST" duration-ms="1923" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:36:36 IST" name="LaunchBrowser" finished-at="2025-06-20T11:36:48 IST" duration-ms="12651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Edge Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Launched https://www.amazon.in/ Application]]>
+            </line>
+            <line>
+              <![CDATA[User in Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in : page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="EditProfileInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:36:48 IST" name="EditProfileInformation" data-provider="dataset" finished-at="2025-06-20T11:38:03 IST" duration-ms="74772" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7010367624]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gunapaaroli@1210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aravind]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (527, 374). Other element would receive the click: <input id="cnep_1C_submit_button" tabindex="3" class="a-button-input" type="submit" aria-labelledby="a-autoid-0-announce">
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4c8f150cfd562b5317069f5e741a6708, clickElement {id=f.EF5B5BD3AC3EBFF81E6D667AD2B3C6CE.d.48D783A82861DC29C29928BB35E90BE2.e.424}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64453}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64453/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (4c8f150cfd562b5317069f5e741a6708)] -> xpath: //span[contains(text(),'Save changes')]]
+Session ID: 4c8f150cfd562b5317069f5e741a6708]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="a-button-text" aria-hidden="true" id="a-autoid-0-announce">...</span> is not clickable at point (527, 374). Other element would receive the click: <input id="cnep_1C_submit_button" tabindex="3" class="a-button-input" type="submit" aria-labelledby="a-autoid-0-announce">
+  (Session info: MicrosoftEdge=137.0.3296.83)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4c8f150cfd562b5317069f5e741a6708, clickElement {id=f.EF5B5BD3AC3EBFF81E6D667AD2B3C6CE.d.48D783A82861DC29C29928BB35E90BE2.e.424}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64453}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\welcome\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64453/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (4c8f150cfd562b5317069f5e741a6708)] -> xpath: //span[contains(text(),'Save changes')]]
+Session ID: 4c8f150cfd562b5317069f5e741a6708
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at amazonpackage.AmazonProjectMaven.AmzLoginSecurityPage.clickOnSaveChangesBtn(AmzLoginSecurityPage.java:72)
+at amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation.EditProfileInformation(TC04_EditProfileInformation.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Started EditProfileInformation]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Signin button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Mobile# or Email : 7010367624]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Password : password]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked Sigin Button]]>
+            </line>
+            <line>
+              <![CDATA[Verified Used Name is : Hello, Aravind]]>
+            </line>
+            <line>
+              <![CDATA[User Mouse Hover on the Profile]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on Your Account hyperLink]]>
+            </line>
+            <line>
+              <![CDATA[User Clicked on the Login & Security]]>
+            </line>
+            <line>
+              <![CDATA[OTP Page is Present : Enter verification code]]>
+            </line>
+            <line>
+              <![CDATA[Used Clicked Edit button in Name]]>
+            </line>
+            <line>
+              <![CDATA[Current User Name is : ]]>
+            </line>
+            <line>
+              <![CDATA[Test Failed EditProfileInformation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditProfileInformation -->
+        <test-method is-config="true" signature="QuitBrowser()[pri:0, instance:amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation@6d026701]" started-at="2025-06-20T11:38:03 IST" name="QuitBrowser" finished-at="2025-06-20T11:38:05 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User Quit Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- amazonpackage.AmazonProjectMaven.TC04_EditProfileInformation -->
+    </test> <!-- AmazonTC04 -->
+  </suite> <!-- AmazonSuite -->
+</testng-results>
